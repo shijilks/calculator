@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrap">
+        <form name="cal">
+            <input type="text" name="dispaly">
+            <br></br>
+            <input type="button" value="9" onclick="cal.dispaly.value+='9'"> 
+            <input type="button" value="8" onclick="cal.dispaly.value+='8'"> 
+            <input type="button" value="7" onclick="cal.dispaly.value+='7'"> 
+            <input type="button" value="+" onclick="cal.dispaly.value+='+'"> 
+            <br></br>
+            <input type="button" value="6" onclick="cal.dispaly.value+='6'"> 
+            <input type="button" value="5" onclick="cal.dispaly.value+='5'"> 
+            <input type="button" value="4" onclick="cal.dispaly.value+='4'"> 
+            <input type="button" value="-" onclick="cal.dispaly.value+='-'"> 
+            <br></br>
+            <input type="button" value="3" onclick="cal.dispaly.value+='3'"> 
+            <input type="button" value="2" onclick="cal.dispaly.value+='2'"> 
+            <input type="button" value="1" onclick="cal.dispaly.value+='1'"> 
+            <input type="button" value="*" onclick="cal.dispaly.value+='*'"> 
+            <br></br>
+            <input type="button" value="0" onclick="cal.dispaly.value+='0'"> 
+            <input type="button" value="/" onclick="cal.dispaly.value+='/'"> 
+            <input type="button" value="%" onclick="cal.dispaly.value+='%'"> 
+            <input type="button" value="=" onclick="cal.dispaly.value = eval(cal.dispaly.value)"> 
+            <br></br>
+            <input type="button" value="DELETE" onclick="cal.dispaly.value =''" id="del"> 
+
+        </form>
+
+    </div>
+
+
+
+    </div>
+</body>
+</html>
